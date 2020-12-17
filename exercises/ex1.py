@@ -7,12 +7,12 @@ def get_customer_id(name: str) -> str:
     with open(CUSTOMERS_FILE, 'r') as file:
         cust_lines = file.readlines()
 
-    for customer_line in cust_lines:
-        cust_details = customer_line.split(',')
-        if cust_details[1] == name:
-            return cust_details[0]
-    
-    raise Exception("Customer not found")
+    customer_details = [details.split(',') for details in cust_lines if details.split(',')[1] == name]
+    if customer_details:
+        return customer_details[0][0]
+    else: 
+        raise Exception("Customer not found")
+
 
 def get_cusomer_orders(customer_id: int):
     with open(ORDERS_FILE, 'r') as file:
