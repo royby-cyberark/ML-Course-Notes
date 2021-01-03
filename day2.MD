@@ -45,5 +45,12 @@ When we're going data processing we have 3 options for filling in missing data
   * Usually we will opt to fill in the missing data so that we don't lose the entire record
   
   
-  
-  
+## Exercise 1, day2
+* See github - https://github.com/dev-area/DS
+* [data understanding cheat-sheet](https://github.com/dev-area/DS/blob/master/Data%20Understanding%20CS.ipynb) - copy and use
+* do Lab-diamonds: loads the diamonds dataset
+* df = sb.load_dataset('diamonds')
+* df.head()
+* run until data-prep
+* https://github.com/dev-area/DS/blob/master/Lab%20-%20diamonds.ipynb
+* 
