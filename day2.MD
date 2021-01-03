@@ -1,4 +1,7 @@
 
+* supervised-unsupervised-learning
+https://blogs.nvidia.com/blog/2018/08/02/supervised-unsupervised-learning/
+
 We genrally seperate ML into two categories: 
 1. Supervised - marked data
    we have info on the target, e.g. is the pic a dog or a cat
