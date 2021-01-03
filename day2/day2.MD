@@ -6,9 +6,9 @@ We genrally seperate ML into two categories:
 1. Supervised - marked data
    we have info on the target, e.g. is the pic a dog or a cat
    
-   1.1 classification problems - tell me if its a dog or a cat
+   1.1 classification problems - tell me if its a dog or a cat, product categorization - Y is categorial
    
-   1.2 regression - we have the target values, and we want to predict some value. for example, we want to predict grades, avg, etc. with the data that we have for studends (e.g. age, where they live, etc.)
+   1.2 regression - we have the target values, and we want to predict some value. for example, we want to predict grades, avg, etc. with the data that we have for studends (e.g. age, where they live, etc.) - Y is numeric
 
 2. Unsupervised - unmarked data. we don't have the target value. e.g. 
    we're taking a group, e.g. a successful fertilization. 
