@@ -20,8 +20,9 @@ https://scipy.org/
 | SciPy | Pandas | Matplotlib |
 |            NumPy            |
 
-numpy - math
+Numpy - low level math, structures impl. in c
 Pandas - data processing, uses numpy
+SciPy - math, built on Numpy
 
 * Numpy examples - https://colab.research.google.com/drive/1kr2RX0Ffz01JYhG6p7LS1AVduyxQe2qN?usp=sharing
 
