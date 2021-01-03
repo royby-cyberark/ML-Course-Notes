@@ -48,7 +48,7 @@ When we're going data processing we have 3 options for filling in missing data
   
 ## Exercise 1, day2
 * See github - https://github.com/dev-area/DS
-* [data understanding cheat-sheet](https://github.com/dev-area/DS/blob/master/Data%20Understanding%20CS.ipynb) - copy and use
+* [data understanding cheat-sheet](https://github.com/royby-cyberark/ml-course/blob/main/Data%20Understanding%20CS.ipynb)
 * do Lab-diamonds: loads the diamonds dataset
 * df = sb.load_dataset('diamonds')
 * df.head()
