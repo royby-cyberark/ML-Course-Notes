@@ -1,3 +1,8 @@
+# Cheat sheets
+* Pandas - https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
+* Data understanding - https://github.com/royby-cyberark/ml-course/blob/main/Data%20Understanding%20CS.ipynb
+* Data prep - https://github.com/royby-cyberark/ml-course/blob/main/Dataprep%20CS.ipynb
+
 # Tools
 * most popular ML python framework: https://scikit-learn.org/stable/
   * https://scikit-learn.org/stable/user_guide.html
