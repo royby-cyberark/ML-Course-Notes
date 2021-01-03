@@ -80,6 +80,18 @@ fit will take the x_train and y_train and will try to find the model (the calcul
 See: https://colab.research.google.com/drive/1kr2RX0Ffz01JYhG6p7LS1AVduyxQe2qN#scrollTo=rT-86niaL32v
 for examples of using scipy
 
+# Linear regression
+params = x, y, z, target = t
+LR find a line that is closeset to all points.
+something like x* c1 + y * c2 + y * c3 = t
+
+in code we can get those by calling:
+
+```
+model.coef_
+```
+
+
 
 
 
