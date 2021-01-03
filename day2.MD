@@ -26,4 +26,15 @@ SciPy - math, built on Numpy
 
 * Numpy examples - https://colab.research.google.com/drive/1kr2RX0Ffz01JYhG6p7LS1AVduyxQe2qN?usp=sharing
 
+* Data types
+  * Matrix data - a design matrix x and label vector y
+  * text
+  * images
+  * set data, e.g. items purchased together
+  * sequence data 0 clickstream, purcahse histroy
+  * time seriese (e.g stock prices, audio, video)
+  * grpah/network
+  
 
+  
+  
