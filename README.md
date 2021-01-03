@@ -39,12 +39,18 @@ vs
 * CRISP-DM - cross industry standard proess for data mining 
   1. business understanding
   2. data understanding 
+  
   1, 2 iteratively 
+  
   3. data preperation
   4. modeling
+  
   3, 4 iteratively
+  
   5. evolution
+  
   goto 1
+  
   6. deployment
   
   this process is iterative when we have new data
