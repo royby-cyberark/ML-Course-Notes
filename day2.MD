@@ -35,6 +35,12 @@ SciPy - math, built on Numpy
   * time seriese (e.g stock prices, audio, video)
   * grpah/network
   
-
+## Data processing
+When we're going data processing we have 3 options for filling in missing data
+  * Ignore them (bad idea usually)
+  * Delete it, but then we're missing the rest of the data
+  * Usually we will opt to fill in the missing data so that we don't lose the entire record
+  
+  
   
   
