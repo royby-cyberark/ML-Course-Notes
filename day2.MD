@@ -24,7 +24,7 @@ Numpy - low level math, structures impl. in c
 Pandas - data processing, uses numpy
 SciPy - math, built on Numpy
 
-* Numpy examples - https://colab.research.google.com/drive/1kr2RX0Ffz01JYhG6p7LS1AVduyxQe2qN?usp=sharing
+* Numpy, pandas examples - [colab](https://colab.research.google.com/drive/1kr2RX0Ffz01JYhG6p7LS1AVduyxQe2qN?usp=sharing), [in this repo](https://github.com/royby-cyberark/ml-course/blob/main/ml_course_day2_sci_libs.ipynb)
 
 * Data types
   * Matrix data - a design matrix x and label vector y
