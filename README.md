@@ -45,6 +45,8 @@ vs
   3. data preperation
   4. modeling
   
+  https://github.com/royby-cyberark/ml-course/blob/main/day2.MD#creating-the-model-in-supervised
+  
   3, 4 iteratively
   
   5. evolution
