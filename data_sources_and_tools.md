@@ -1,5 +1,6 @@
 # Tools
 * most popular ML python framework: https://scikit-learn.org/stable/
+  * https://scikit-learn.org/stable/user_guide.html
 
 # Data
 
