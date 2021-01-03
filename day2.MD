@@ -57,4 +57,29 @@ When we're going data processing we have 3 options for filling in missing data
 * df.head()
 * run until data-prep
 * https://github.com/dev-area/DS/blob/master/Lab%20-%20diamonds.ipynb
-* 
+
+
+## Creating the model in supervised 
+target can be a number or a category (dog/cat)
+
+let's say we want to predict apt. price
+x is all params - location, rooms, floor, etc. y is that target - price
+
+* We start by seperating the dataset into train and test:
+70% of the data - train (x.train, y.train)
+30% of the data - test (x.test, y.test)
+
+* Fit
+x_train, y_train into fit -> which give us the model
+
+fit will take the x_train and y_train and will try to find the model (the calculation that will bring us to y from x)
+
+* Then we take the model, and feed it with x_test, and predict it. it outputs with y_predict.
+* compare y_test with y_predict and see how they fit.
+
+See: https://colab.research.google.com/drive/1kr2RX0Ffz01JYhG6p7LS1AVduyxQe2qN#scrollTo=rT-86niaL32v
+for examples of using scipy
+
+
+
+
