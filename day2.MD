@@ -16,7 +16,8 @@ We genrally seperate ML into two categories:
    usually for recommendations. e.g. product recommendation.
    e.g. user is a studend, certain age, etc. then recommend a tv show. 
    
-   
+More stuff on my clab:
+https://colab.research.google.com/drive/1kr2RX0Ffz01JYhG6p7LS1AVduyxQe2qN?usp=sharing
    
 * Python sci packages
 https://scipy.org/
@@ -83,12 +84,13 @@ for examples of using scipy
 # Linear regression
 params = x, y, z, target = t
 LR find a line that is closeset to all points.
-something like x* c1 + y * c2 + y * c3 = t
+something like x* c1 + y * c2 + y * c3 + c4 = t
 
 in code we can get those by calling:
 
 ```
 model.coef_
+model.intercept_
 ```
 
 
