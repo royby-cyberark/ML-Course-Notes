@@ -28,4 +28,13 @@ Example, see Titanic notenook in the course archive file
 TODO: 
 1. Logistics regression lab
 2. practice dummy vars: real_estate.csv - build a regression model, when you keep the type, or turn it into dummy vars and compare results
+3. take any dateset from fraggle and try everything we did there
+
+## Titanic
+See titanic notebook - my notes at the top
+
+## classification reports
+see "classification reports.ipynb"
+
+
 
