@@ -3,18 +3,22 @@
 https://blogs.nvidia.com/blog/2018/08/02/supervised-unsupervised-learning/
 
 We genrally seperate ML into two categories: 
-1. Supervised - marked data
+1. Supervised - marked data, we have a column of that target - the prices, cat/dog, etc.
    we have info on the target, e.g. is the pic a dog or a cat
+   We have two families here:
    
-   1.1 classification problems - tell me if its a dog or a cat, product categorization - Y is categorial
+   1.1 classification problems - tell me if its a dog or a cat, is it true/false, product categorization - Y is categorial
    
-   1.2 regression - we have the target values, and we want to predict some value. for example, we want to predict grades, avg, etc. with the data that we have for studends (e.g. age, where they live, etc.) - Y is numeric
+   1.2 regression - here, we are looking for some value. we have the target values, and we want to predict some value. for example, we want to predict grades, avg, etc. with the data that we have for studends (e.g. age, where they live, etc.) - Y is numeric
 
-2. Unsupervised - unmarked data. we don't have the target value. e.g. 
-   we're taking a group, e.g. a successful fertilization. 
+2. Unsupervised - unmarked data. we don't have the target value. e.g. no such column, or maybe its useless 
+   we're taking a group, e.g. a successful fertilization. with many features. and we do have a column of successful, and we take only the successful
+   so this column is not useful.
    then, according to the parameters, we will try to infer for something we don't know.
    usually for recommendations. e.g. product recommendation.
    e.g. user is a studend, certain age, etc. then recommend a tv show. 
+   this is also called cluster analysis. 
+   we seperate the data into groups, and according to the groups we can recommend something.
    
 More stuff on my clab:
 https://colab.research.google.com/drive/1kr2RX0Ffz01JYhG6p7LS1AVduyxQe2qN?usp=sharing
