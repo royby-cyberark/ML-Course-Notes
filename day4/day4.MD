@@ -94,8 +94,47 @@ the **Bias and variance tradeoff**
 Bias - error compared to our data
 variance - 
 
-When we make our model more complex we get less error until a min point, after which our test data get less errors, but the real results get more errors.
+When we make our model more complex we get less error until a min point, after which our train data get less errors, but the test results get more errors.
 we are looking for this min point.
+
+DescisionTreeClassifier has hyperparams that we can use, 
+min_samples_split - change it to find the min point
+and other params.
+
+**Always check for overfitting, underfitting** - in any model
+
+TODO - read about underfitting
+
+We can create the desicion tree in many way.
+the randomness according to which we build our tree will affect our results
+
+Which have the option of building many trees. 
+
+## Random forests
+We build many trees for the same data
+run your prediction on all trees, and pick the result according to the majority.
+this cancels our problem of random picking.
+
+See Ensemble methods under scikit learn
+https://scikit-learn.org/stable/modules/ensemble.html
+
+for example, there's randomForestRegressor, and many more, there's the classifier which you init and then you use the regressor.
+
+in my notebook see "Bootstrap Aggregation" and "Random Forests"
+
+in random forest, for example, we can ask what ware the more important features.
+
+
+* We could use the decision tree to solve linear and other problems also, e.g. the iris problem that is sovled in the SVM examples
+in the notebooks here
+https://drive.google.com/drive/folders/1UxSm3L3hlHXF7ZWTKzl0EbQxbhok7akj
+
+## Naive Bayes
+conditional probability. 
+There are academic courses, like this: https://www.coursera.org/learn/bayesian-methods-in-machine-learning
+
+instructor gmail: liranbh
+
 
 
 
