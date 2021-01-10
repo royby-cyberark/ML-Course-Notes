@@ -142,7 +142,7 @@ instructor gmail: liranbh
 
 
 
-# Nearest neighbors
+## Nearest neighbors
 
 K Nearest neighbors is a classification algorithm
 calc distance to all points in your data
@@ -163,7 +163,7 @@ https://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.htm
 
 **NOTE:** If we're using a distance algorithm, you MUST normalize/standarize the data
 
-# Multiclass and Multilabel
+## Multiclass and Multilabel
 
 Turn this into a binary problem
 
@@ -183,6 +183,55 @@ exercise: in the ML zip, under Naive Bayes, use the class_exe.csv
 * do 1 vs 1
 * 1 vs 2
 * 1 vs 3
+
+
+# Unsupervised
+We get data, and we want to seperate into groups - clustering
+we don't have target values.
+there are families of algorithms that help us cluster the data (see tomorrow)
+
+For example, you can create groups of users and give recommendations to the same users.
+
+Prediction here is to select the right group for the data you want to predict for.
+e.g. you get patient info and decide to what group to classify them to.
+
+## Dimentionality reduction
+Lets say I have 50 dims and I have 1 target. and I can't get a good result, since I have a lot of features.
+If I can find good correlations between features. 
+Let's assume that we want to test correlation for some 10 features. 
+
+We can run cluster analysis for these 10 features. 
+We can cluster them into, let's say 3 groups and add some column and try to predict it.
+we can them replace the 10 columns with this 1 field. 
+
+If we do this for several groups of columns, we have seleral unsupervised problems.
+
+## Anomaly detection
+We want to detect suspecious behavior.
+We take all shoppings a user do, seperate into clusters, for example:
+purchase by phone, aborad, domestic, etc. 
+
+for each new purchse, test which group it belongs to.
+if it is too far we can decide that its abnormal behavior.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
