@@ -163,6 +163,13 @@ https://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.htm
 
 **NOTE:** If we're using a distance algorithm, you MUST normalize/standarize the data
 
+# Multiclass and Multilabel
+
+Turn this into a binary problem
+
+# Multilabel
+e.g. suggest tags, understand if its related to python, linux, web, android etc.
+
 
 
 
