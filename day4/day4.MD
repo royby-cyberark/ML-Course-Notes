@@ -133,6 +133,12 @@ https://drive.google.com/drive/folders/1UxSm3L3hlHXF7ZWTKzl0EbQxbhok7akj
 conditional probability. 
 There are academic courses, like this: https://www.coursera.org/learn/bayesian-methods-in-machine-learning
 
+TODO, task:
+run 
+
+df = sb.load_dataset("diamonds")
+liranbh@gmail.com
+
 instructor gmail: liranbh
 
 
