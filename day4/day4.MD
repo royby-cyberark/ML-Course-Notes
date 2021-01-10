@@ -44,11 +44,10 @@ print(mt.classificatoin_report(y_test, y_pred))
 ML
 * Unsupervised
 * Supervised
-  * Regression - Linear, SVR (Support vector regression), DTR (descision tree), RFR (random forest)
+  * Regression - Linear, SVR (Support vector regressor), DTR (descision tree regressor), RFR (random forest regressor)
   * Classification
     * Multiclass - a, b or c (e.g dog breed, type of custoemr between several types) - DT (Decisoin tree), RF (random forest), KNN (K nearest neighbor), NB (Naive Bayes)
     * Binary - yes/no - Logistic, SVC (support verctor)
-      * Logistic
   
 
 ----------------------------
