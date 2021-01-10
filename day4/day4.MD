@@ -175,6 +175,8 @@ e.g. suggest tags, understand if its related to python, linux, web, android etc.
 
 
 TODO
+see exe_multi class classification
+
 exercise: in the ML zip, under Naive Bayes, use the class_exe.csv
 
 * Use random forest classifier
