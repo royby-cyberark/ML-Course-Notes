@@ -44,10 +44,10 @@ print(mt.classificatoin_report(y_test, y_pred))
 ML
 * Unsupervised
 * Supervised
-  * Regression
+  * Regression - Linear, SVR (Support vector regression), DTR (descision tree), RFR (random forest)
   * Classification
-    * Multiclass - a, b or c (e.g dog breed, type of custoemr between several types)
-    * Binary - yes/no
+    * Multiclass - a, b or c (e.g dog breed, type of custoemr between several types) - DT (Decisoin tree), RF (random forest), KNN (K nearest neighbor), NB (Naive Bayes)
+    * Binary - yes/no - Logistic, SVC (support verctor)
       * Logistic
   
 
@@ -143,6 +143,26 @@ instructor gmail: liranbh
 
 
 
+# Nearest neighbors
+
+K Nearest neighbors is a classification algorithm
+calc distance to all points in your data
+
+the problem - there's no fit here. the prediction takes time.
+
+We need to use scalers, see in preprocessing in scikit which will turn everything into one scale
+e.g. turn all between 0-1
+
+https://scikit-learn.org/stable/modules/preprocessing.html
+
+see standardisation or normalization
+we can for example use rehshape(-1, 1)
+
+TODO - read this:
+https://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.html#sphx-glr-auto-examples-preprocessing-plot-all-scaling-py
+
+
+**NOTE:** If we're using a distance algorithm, you MUST normalize/standarize the data
 
 
 
