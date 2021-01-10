@@ -167,12 +167,20 @@ https://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.htm
 
 Turn this into a binary problem
 
+* 1 vs all
+* 1 vs 1 (or all vs all)
+
 # Multilabel
 e.g. suggest tags, understand if its related to python, linux, web, android etc.
 
 
+TODO
+exercise: in the ML zip, under Naive Bayes, use the class_exe.csv
 
-
+* Use random forest classifier
+* do 1 vs 1
+* 1 vs 2
+* 1 vs 3
 
 
 
