@@ -19,6 +19,8 @@ has many datasets you can start working with.
   * see kaggle competitions/compete. google kaggle competitions solutions
     https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions
 
+* Also see ICU datasets - https://archive.ics.uci.edu/ml/datasets.php
+
 ## Terms
 
 * Data mining
