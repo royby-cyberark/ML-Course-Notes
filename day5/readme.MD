@@ -152,3 +152,44 @@ https://github.com/royby-cyberark/DS/blob/master/ds1.csv
 
 * My work: 
 https://colab.research.google.com/drive/14s7pbkkJ-OBTRjEMowHa5RrLq8on6v2K
+
+We can't really get good results without some transformation - feature engineering
+
+in such problems we must transform the data somehow
+The history might matter here. 
+
+* See timestamp problems
+google UCI datasets
+you can see timeseries datasets:
+https://archive.ics.uci.edu/ml/datasets.php?format=&task=&att=&area=&numAtt=&numIns=&type=ts&sort=nameUp&view=table
+
+
+# Deep learning
+Chaining of machine learning problems
+This model is called "Nueral network", based loosely on the human brain
+if we have a large amount of features, its hard to find the important features
+
+It learns how to break into the right sub-problems
+
+The human brain is made of a lot of neurons, each of which is connected with synaps to 10k neurons.
+a simple descision usess 200-300 neurons
+
+In deep learning, we build a network, like a graph.
+we give it the input.
+let's say X, Y, Z
+each neuron is connected to all neurons in the next level. 
+at the far side we have the target.
+each vertex in the graph has a weight.
+
+we run some mathematical operation on the input and get the output.
+
+
+
+
+
+
+
+
+
+
+
