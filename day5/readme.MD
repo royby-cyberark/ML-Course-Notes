@@ -139,7 +139,9 @@ for example with a target of true/false and we have 98% true
 this data isn't balanced. 
 one option is taking a smaller part of the true
 
+
 **TODO Exercise**
+
 In repo see DS1.csv with data
 try to build a supervised model for it to understand if its true or false
 
