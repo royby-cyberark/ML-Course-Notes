@@ -181,7 +181,22 @@ each neuron is connected to all neurons in the next level.
 at the far side we have the target.
 each vertex in the graph has a weight.
 
-we run some mathematical operation on the input and get the output.
+we doing some linear calc on the inputs and the vertices and then we run some mathematical operation on the input and get the output.
+see image
+
+![Deep learning]("https://github.com/royby-cyberark/ml-course/blob/main/day5/Screen%20Shot%202021-01-11%20at%2014.22.54.png?raw=true")
+
+To decide on the actual numner we need to train the network.
+which means to find the weights on the vertices
+this isn't trivial. it takes time and it might not sure that we can actually train it properly, depending on the way that we've built it.
+
+## Benefits: 
+* It can solve ANY machine learning problems - regression, classification and ..
+each neuron is its own linear regression
+
+* Here we don't need to understand how to seperate into sub-problems. the learning process decides what's best, which is represented by the vertices weight
+
+
 
 
 
