@@ -30,4 +30,9 @@ So you have:
 
 When you get a new point match it with the right center. 
 
+See "ML/Unsuper/K Means Clustering Demo" notebook
+or this:
+https://colab.research.google.com/drive/10KWdg8e4FmeOVeKz8FwDJs53tVVpTlby
+You can try to change the numnber of groups (centers) and see the diff it makes
 
+## 
