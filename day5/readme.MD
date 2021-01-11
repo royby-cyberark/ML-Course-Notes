@@ -144,42 +144,11 @@ one option is taking a smaller part of the true
 
 In repo see DS1.csv with data
 try to build a supervised model for it to understand if its true or false
+* cheat sheet:
+https://github.com/royby-cyberark/DS/blob/master/models-CS.ipynb
 
+* data:
+https://github.com/royby-cyberark/DS/blob/master/ds1.csv
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
-
-
-
-
-
-
+* My work: 
+https://colab.research.google.com/drive/14s7pbkkJ-OBTRjEMowHa5RrLq8on6v2K
