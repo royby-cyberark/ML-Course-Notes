@@ -165,6 +165,13 @@ https://archive.ics.uci.edu/ml/datasets.php?format=&task=&att=&area=&numAtt=&num
 
 
 # Deep learning
+
+Neural networks no longer uses scikit. instead there is Keras, integrated into tensorflow (from google)
+The alternative is pytorch (from facebook)
+After learning machine learning, the next step is learning tensorflow (or pytorch)
+
+NN are dealing with many features (we don't need to have a lot of data, but at least in the order or magnitutde of the features, or maybe one more)
+
 Chaining of machine learning problems
 This model is called "Nueral network", based loosely on the human brain
 if we have a large amount of features, its hard to find the important features
@@ -184,7 +191,7 @@ each vertex in the graph has a weight.
 we doing some linear calc on the inputs and the vertices and then we run some mathematical operation on the input and get the output.
 see image
 
-![Deep learning]("https://github.com/royby-cyberark/ml-course/blob/main/day5/Screen%20Shot%202021-01-11%20at%2014.22.54.png")
+![Deep learning]("https://raw.githubusercontent.com/royby-cyberark/ml-course/main/day5/Screen%20Shot%202021-01-11%20at%2014.22.54.png")
 
 To decide on the actual numner we need to train the network.
 which means to find the weights on the vertices
@@ -197,12 +204,88 @@ each neuron is its own linear regression
 * Here we don't need to understand how to seperate into sub-problems. the learning process decides what's best, which is represented by the vertices weight
 
 
+The trainers are called Optimizers
+after we go over all data we get epoc1
+each time we tweaq the data a bit according to what we're trying to find (there's some calculus here)
+then we need to go over all data many more times epoc2, 3, etc.
+
+database for images:
+http://yann.lecun.com/exdb/mnist/
+
+See Mnist-NN notebook
+
+MLPClassifier - multi layer preceptron classfier (neuron network classifier)
+
+## Drawbacks
+Very hard to set up.
+many many parameters
+
+Google **Activation Functions** fot the neural networks functions that we can use
+
+* Learning rate - too small - might take a lot, too large - might miss the minimum
+
+## Other NN types
+* Auto encoders
+  for example, compressions.
+  we get 10k input features, we require an hidden layer of lower number, and at the result, the same 10k results.
+  this can be used for compressions for example.
+  see example notebook:
+  https://colab.research.google.com/drive/1-dzKQbIplTUFktWQN8FtlF-4TAVQK2CN
+  
+  the examples also has images with noise and after that it results in clean number. 
+  since it learned how the number are supposed to look.
+  
+  from this deep fake started.
+  
+  *  A generator for people that do not exist:
+  https://thispersondoesnotexist.com/
+  
+  * Generate songs - lyrics, melody, vocals
+  https://openai.com/blog/jukebox/
+  
+  * GuaGAN - sketches into fake scenary on youtube
+  
+  
+* SOM
+* Convolutional NN - math operation on pics, a kind of filter. using algorithms to build the network
+  import scipy.signal as scisig
+  scisig.convole2d(tab1, fil)
+  see Mnist-NN vs MNIST_CNN notebook results
+  
+* Boltzmann machines
 
 
+# Text analysis
+we got a lot of text - documents
+1. build a BOW - bag of words - a bag of each **unique** words
+2. filtered some words (stop words), like "on", "the" etc - lowers the dims
+   also conjugation - stop, stopping, stopped. there are tricks for doing that.
+3. let's say we are left with 10k words. we will build a table with the word as features
+4. the rows are the docs - doc1, doc2, etc.
+5. we want to decide on the % handycap 
+6. tfidf - term freq (count the term), inverse doc freq - 
 
+# Natural language processing
 
+## NLTK - natural language took kit 
+a must library for NLP
+helps with feature prep, etc. 
+see examples in the notebook: "Text Processing\NPL Demo" 
+spam filter by words
 
+you can use things like:
+python string poncuation, 
+nltk have packages like corpus which you can get words from, stopwords
 
+we can build a pipeline with this:
+sklearn.pipeline import Pipeline
+
+# Next learning
+for deep learning its best to get some match backgroung first from 
+e.g. Deep Learning Specialization in Coursera
+also there are heb lectures in youtube
+
+There are ready models in aws, google, etc. 
 
 
 
