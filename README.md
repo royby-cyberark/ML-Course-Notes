@@ -1,5 +1,9 @@
 # ML-Course-Notes
 
+* Course github:
+https://github.com/royby-cyberark/DS (forked from https://github.com/dev-area/DS)
+
+
 * SciPy.org - python for scientific uses - alternative to matlab with python. free and open source
 * most popular ML python framework: https://scikit-learn.org/stable/
 * Anaconda - data oriented python framework
