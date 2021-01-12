@@ -1,5 +1,8 @@
 # ML-Course-Notes
 
+* Presentor google drive:
+https://drive.google.com/drive/folders/1UxSm3L3hlHXF7ZWTKzl0EbQxbhok7akj
+
 * Course github:
 https://github.com/royby-cyberark/DS (forked from https://github.com/dev-area/DS)
 
